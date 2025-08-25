@@ -1,0 +1,71 @@
+/* General styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:lightblue;
+    color:black;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container to center content */
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(229, 220, 130, 0.1);
+}
+
+/* Image styling */
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid black;
+}
+
+/* Box styling */
+.box {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Headings */
+h1 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+h2, h3 {
+    margin: 10px 0;
+}
+
+/* List styling */
+ol {
+    text-align: left;
+    margin-left: 40%;
+    margin-top: 10px;
+}
+
+li {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    ol {
+        margin-left: 20%;
+    }
+}
